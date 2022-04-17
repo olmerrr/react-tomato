@@ -1,22 +1,20 @@
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 export function Header() {
   return (
     <header className='header'>
       <nav className='header-nav'>
-        <a href='/' className='brand-logo'>
+        <Link to='/' className='brand-logo'>
           Tomato
-        </a>
+        </Link>
 
         <ul id='nav-mobile' className='right hide-on-med-and-down nav-links'>
           <li>
-            <a href='https://en.wikipedia.org/wiki/Gift'>Gifts</a>
+            <Link to='https://en.wikipedia.org/wiki/Gift'>About</Link>
           </li>
           <li>
-            <a href='https://en.wikipedia.org/wiki/Store'>Store</a>
-          </li>
-          <li>
-            <a href='https://en.wikipedia.org/wiki/Metaverse'>Metaverse</a>
+            <Link to='https://en.wikipedia.org/wiki/Store'>Contact</Link>
           </li>
         </ul>
       </nav>
