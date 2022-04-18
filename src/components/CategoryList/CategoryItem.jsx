@@ -2,14 +2,12 @@ import { Link } from 'react-router-dom';
 
 export const CategoryItem = (props) => {
   const {
-    idCategory = '',
     strCategory = '',
     strCategoryThumb = '',
     strCategoryDescription = '',
   } = props;
   return (
     <div className='card'>
-      {/* <span>{idCategory}</span> */}
       <div className='card-content'>
         <div className='card-title'>{strCategory}</div>
 
@@ -21,7 +19,7 @@ export const CategoryItem = (props) => {
       </div>
 
       <div className='card-action'>
-        <Link className='btn' to={`/category/${idCategory}`}>
+        <Link className='btn brand-link' to={`/category/${strCategory}`}>
           Watch Category
         </Link>
       </div>

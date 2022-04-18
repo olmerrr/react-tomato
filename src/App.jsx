@@ -7,6 +7,7 @@ import { Footer } from './layout/Footer/Footer';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Contact } from './pages/Contact';
+import { Category } from './pages/Category';
 import { NotFound } from './pages/NotFound';
 
 import './App.css';
@@ -21,6 +22,7 @@ export default function App() {
             <Route exact path='/' element={<Home />} />
             <Route exact path='/about' element={<About />} />
             <Route exact path='/contact' element={<Contact />} />
+            <Route exact path='/category/:name' element={<Category />} />
 
             <Route path='*' element={<NotFound />} />
           </Routes>
