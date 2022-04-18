@@ -11,10 +11,10 @@ export function Header() {
 
         <ul id='nav-mobile' className='right hide-on-med-and-down nav-links'>
           <li>
-            <Link to='https://en.wikipedia.org/wiki/Gift'>About</Link>
+            <Link to='/about'>About</Link>
           </li>
           <li>
-            <Link to='https://en.wikipedia.org/wiki/Store'>Contact</Link>
+            <Link to='/contact'>Contact</Link>
           </li>
         </ul>
       </nav>
