@@ -18,7 +18,19 @@ h1 {
   }
 }
 
-.category {
+.err-title {
+  font-weight: 700;
+  font-size: 8rem;
+}
+
+@media screen and (min-width: 769px) {
+  .err-title {
+    font-size: 16.2rem;
+  }
+}
+
+.category, 
+.title {
   font-size: 18px;
   font-weight: 300;
   padding: 10px;
@@ -47,9 +59,6 @@ h1 {
   font-family: 'Rubik', sans-serif;
 }
 
-.btn-big {
-  width: 200px;
-}
 
 .go-back {
   background-color: #333;
@@ -57,6 +66,11 @@ h1 {
   width: 80px;
   cursor: pointer;
 }
+
+.btn-big {
+  width: 130px;
+}
+
 
 .go-back:hover {
   background-color: #333;
@@ -84,6 +98,11 @@ h1 {
   flex-grow: 1;
 }
 
+.step,
+.err {
+  color: #e24d4d;
+}
+
 .content-recipe {
   padding: 20px;
 }
@@ -92,4 +111,8 @@ h1 {
   max-width: 100%;
   width: 600px;
   height: 350px;
+}
+
+.ml-20 {
+  margin-left: 20px;
 }
