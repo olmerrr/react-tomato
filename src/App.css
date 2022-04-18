@@ -7,6 +7,26 @@
   color: #131a22;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+}
+
+.category {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px;
+  background-color: #a61818;
+  color: #fff;
+  border-radius: 2px;
+}
+
 .brand-link {
   border: none;
   width: 100%;
@@ -16,14 +36,31 @@
   margin-right: 30px;
   font-weight: 600;
   background-color: #e24d4d;
+  font-family: 'Rubik', sans-serif;
 }
 
 .brand-link:hover {
   background-color: #a61818;
 }
 
+.btn {
+  font-family: 'Rubik', sans-serif;
+}
+
 .btn-big {
   width: 200px;
+}
+
+.go-back {
+  background-color: #333;
+  color: #fff;
+  width: 80px;
+  cursor: pointer;
+}
+
+.go-back:hover {
+  background-color: #333;
+  background-color: #000;
 }
 
 .content {
@@ -45,4 +82,14 @@
 
 .card-content {
   flex-grow: 1;
+}
+
+.content-recipe {
+  padding: 20px;
+}
+
+.iframe {
+  max-width: 100%;
+  width: 600px;
+  height: 350px;
 }

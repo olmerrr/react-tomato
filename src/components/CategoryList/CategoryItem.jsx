@@ -6,6 +6,7 @@ export const CategoryItem = (props) => {
     strCategoryThumb = '',
     strCategoryDescription = '',
   } = props;
+  
   return (
     <div className='card'>
       <div className='card-content'>
