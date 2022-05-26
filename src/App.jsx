@@ -16,7 +16,7 @@ import './App.css';
 export default function App() {
   return (
     <>
-      <Router basename='/react-tomato'>
+      <Router>
         <Header />
         <main className='container content'>
           <Routes>
